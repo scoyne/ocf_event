@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #7CFF00;
+  color: #006500;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -188,7 +188,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 70px;
+  max-height: 75px;
 }
 
 @media (max-width: 992px) {
@@ -1536,7 +1536,8 @@ h6 {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
+  height: 75px;
+  /* height: 40px; */
   margin-bottom: 10px;
 }
 
@@ -1550,7 +1551,8 @@ h6 {
 
 #footer .footer-top .social-links a {
   display: inline-block;
-  background: #222636;
+  /* background: #222636; */
+  background: #006500;
   color: #eee;
   line-height: 1;
   margin-right: 4px;
@@ -1570,7 +1572,8 @@ h6 {
 
 #footer .footer-top .social-links a:hover {
   background: #7CFF00;
-  color: #fff;
+  /* color: #fff */
+  color: #222636;
 }
 
 #footer .footer-top h4 {
