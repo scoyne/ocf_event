@@ -193,7 +193,8 @@ h6 {
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    /* max-height: 30px; */
+    max-height: 100px;
   }
 }
 
@@ -262,9 +263,11 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: 'dm-serif-display-regular';
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1rem;
+  /* font-size: 14px; */
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -558,6 +561,7 @@ h6 {
   font-weight: 700;
   font-size: 2rem;
   /* font-size: 20px; */
+  font-family: 'dm-serif-display-regular';
 }
 
 @media (max-width: 991px) {
@@ -1683,4 +1687,34 @@ h6 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: ;
+}
+
+/* CSS for countdown timer alignment */
+#countdown {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add some space to the right of the countdown */
+  color: #7CFF00;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-item {
+  font-size: 24px;
+  margin-bottom: 0px; /* Add some vertical spacing between countdown items */
+  margin-right: 50px;
+  font-family: 'dm-serif-display-regular';
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  font-family: 'dm-serif-display-regular';
+  margin-right: 50px; /* Add some vertical spacing between labels */
+  color: #fff;
 }

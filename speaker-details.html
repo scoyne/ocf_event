@@ -26,13 +26,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: TheEvent
-  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -47,6 +40,25 @@
       </div>
   
       <nav id="navbar" class="navbar order-last order-lg-0">
+        <!-- Countdown Timer on the left of the menu -->
+        <div id="countdown" class="me-3 d-none d-sm-flex">
+          <div class="countdown-container">
+            <div class="countdown-item" id="days"></div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-container">
+            <div class="countdown-item" id="hours"></div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-container">
+            <div class="countdown-item" id="minutes"></div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-container">
+            <div class="countdown-item" id="seconds"></div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
         <ul>
           <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
@@ -359,6 +371,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/countDown.js"></script>
 
 </body>
 
