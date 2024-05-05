@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/oh20io18fest0938/public_html
+    - /home/oh20io18fest0938/public_html/deploy.sh
